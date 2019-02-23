@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hyperspectral unmixing with spectral variability using a perturbed linear mixing model --by pthouvenin--</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Hyperspectral unmixing with spectral variability using a perturbed linear mixing model</h1>
+        <p>MATLAB source code</p>
+
+        <p class="view"><a href="https://github.com/pthouvenin/unmixing-plmm.git">View the Project on GitHub <small>pthouvenin/unmixing-plmm</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/pthouvenin/unmixing-plmm.git/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/pthouvenin/unmixing-plmm.git/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/pthouvenin/unmixing-plmm.git">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+
+      <section>
+        <h2>Hyperspectral unmixing with spectral variability using a perturbed linear mixing model</h2>
+      </section>
+
+      <section>
+        <h3><a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h3>
+
+        <p>Given a mixed hyperspectral data set, linear unmixing aims at estimating the reference spectral signatures composing the data-referred to as endmembers-their abundance fractions and their number. In practice, the identified endmembers can vary spectrally within a given image and can thus be construed as variable instances of reference endmembers. Ignoring this variability induces estimation errors that are propagated into the unmixing procedure. To address this issue, endmember variability estimation consists of estimating the reference spectral signatures from which the estimated endmembers have been derived as well as their variability with respect to these references. This paper introduces a new linear mixing model that explicitly accounts for spatial and spectral endmember variabilities. The parameters of this model can be estimated using an optimization algorithm based on the alternating direction method of multipliers. The performance of the proposed unmixing method is evaluated on synthetic and real data. A comparison with state-of-the-art algorithms designed to model and estimate endmember variability allows the interest of the proposed unmixing solution to be appreciated.</p>
+        <p>The codes made available here represent a proof of concept MATLAB implementation of the proposed approach.</p>
+
+        <h3><a id="authors" class="anchor" href="#authors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors</h3>
+
+        <ul>
+          <li>Mr. Pierre-Antoine Thouvenin</li>
+          <li>Dr. Nicolas Dobigeon</li>
+          <li>Prof. Jean-Yves Tourneret</li>
+        </ul>
+
+        <h3><a id="article" class="anchor" href="#article" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Article</h3>
+
+        <p>P.-A. Thouvenin, N. Dobigeon and J.-Y. Tourneret - 
+        <em><strong>Hyperspectral unmixing with spectral variability using a perturbed linear mixing model</strong>, 
+          IEEE Trans. Signal Processing, vol. 64, no. 2, pp. 525-538, Jan. 2016.
+        </em></p>
+
+      </section>
+     
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/pthouvenin">pthouvenin</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-82326814-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+     </script>
+  </body>
+</html>
+
