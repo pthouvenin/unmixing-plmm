@@ -1,10 +1,10 @@
-# Hyperspectral unmixing with spectral variability using a perturbed linear mixing model
+# Hyperspectral Unmixing with Spectral Variability using a Perturbed Linear Mixing Model
 
 **Description:** Matlab codes associated with the method described in 
 
 >P.-A. Thouvenin, N. Dobigeon and J.-Y. Tourneret - <strong>Hyperspectral unmixing with spectral variability using a perturbed linear mixing model</strong>, <em>IEEE Trans. Signal Processing</em>, vol. 64, no. 2, pp. 525-538, Jan. 2016.
 
-**Author:** P.-A. Thouvenin, pierreantoine.thouvenin@gmail.com
+**Author:** P.-A. Thouvenin, pierreantoine[dot]thouvenin[at]gmail[dot]com
 
 **Experiments:** to run a representative example of the experiments on real data reported in the article, configure and run the following file:
 
