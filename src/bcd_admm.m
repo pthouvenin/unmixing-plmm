@@ -9,7 +9,7 @@ function [f,A,M,dM] = bcd_admm(Y,A,M,dM,W,H,gamma,flag_proj,flag_parallel,flag_u
 %   Y   =  M    A   + [dM1*a1|...|dMn*an] +   B     (PLMM)
 % (L|N)  (L|R)(R|N)           (dMA)         (L|N)
 %
-% 0.5|Y - MA - dMA|²+0.5*alpha*\Phi(A)+0.5*beta*\Psi(M)+0.5*gamma*|dM|²
+% 0.5|Y - MA - dMA|ï¿½+0.5*alpha*\Phi(A)+0.5*beta*\Psi(M)+0.5*gamma*|dM|ï¿½
 % 
 % s.t.            A >= 0         with N : number of pixels;    
 %                 M >= 0              R : number of endmembers;
@@ -149,7 +149,7 @@ end
 % Algorithm
 %--------------------------------------------------------------
 f = zeros(nIterBCD+1,1);
-f(1) = objective_p3(Y,M,A,dM,H,W,alpha,gamma,'PENALTY',input);
+f(1) = objective_p(Y,M,A,dM,H,W,alpha,gamma,'PENALTY',input);
 
 for k = 2:nIterBCD + 1
     disp(['Iteration ', num2str(k-1)]);
